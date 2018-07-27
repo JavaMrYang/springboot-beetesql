@@ -1,0 +1,4 @@
+#配置springboot读取属性
+devconfig:
+  ip: 222.247.57.142
+  port: 1433
