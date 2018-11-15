@@ -1,6 +1,6 @@
 package com.example.springbootconfig.service;
 
-import com.example.springbootconfig.vo.User;
+import com.example.springbootconfig.domain.User;
 import org.springframework.stereotype.Service;
 
 @Service

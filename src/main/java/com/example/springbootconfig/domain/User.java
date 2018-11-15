@@ -1,4 +1,4 @@
-package com.example.springbootconfig.vo;
+package com.example.springbootconfig.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.beetl.sql.core.annotatoin.Table;

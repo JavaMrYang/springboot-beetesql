@@ -2,9 +2,8 @@ package com.example.springbootconfig.controller;
 
 import com.example.springbootconfig.common.ApiResult;
 import com.example.springbootconfig.common.Error;
-import com.example.springbootconfig.service.UserService;
 import com.example.springbootconfig.service.impl.UserServiceImpl;
-import com.example.springbootconfig.vo.User;
+import com.example.springbootconfig.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
 package com.example.springbootconfig.controller;
 
-import com.example.springbootconfig.vo.ConfigBean;
+import com.example.springbootconfig.domain.ConfigBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;

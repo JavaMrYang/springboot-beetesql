@@ -1,4 +1,4 @@
-package com.example.springbootconfig.vo;
+package com.example.springbootconfig.domain;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;

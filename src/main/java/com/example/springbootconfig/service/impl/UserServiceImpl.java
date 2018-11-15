@@ -2,7 +2,7 @@ package com.example.springbootconfig.service.impl;
 
 import com.example.springbootconfig.dao.UserDao;
 import com.example.springbootconfig.service.UserService;
-import com.example.springbootconfig.vo.User;
+import com.example.springbootconfig.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
