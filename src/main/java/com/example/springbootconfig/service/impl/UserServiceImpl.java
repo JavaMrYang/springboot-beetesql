@@ -5,12 +5,15 @@ import com.example.springbootconfig.service.UserService;
 import com.example.springbootconfig.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userMapper;
+
+    @Transactional
     @Override
     public void saveUser(User user) {
         userMapper.insert(user);
