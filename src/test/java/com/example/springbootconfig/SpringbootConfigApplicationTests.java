@@ -36,6 +36,7 @@ public class SpringbootConfigApplicationTests {
 
 	@Test
 	public void testFind(){
+		System.out.println(JSON.toJSON(userService.findUserByCondition(19,null)).toString());
 		System.out.println(JSON.toJSON(userService.findUserByName("张三")).toString());
 	}
 }

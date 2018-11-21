@@ -8,4 +8,6 @@ public interface UserService {
    void saveUser (User user);
 
    User findUserByName(String name);
+
+   User findUserByCondition(int age,String name);
 }

@@ -23,4 +23,9 @@ public class UserServiceImpl implements UserService {
     public User findUserByName(String name){
         return userMapper.findUserByName(name);
     }
+
+    @Override
+    public User findUserByCondition(int age, String name) {
+        return userMapper.findUserByCondition(age,name).get(0);
+    }
 }
